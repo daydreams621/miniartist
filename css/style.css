@@ -1838,6 +1838,64 @@ figure figcaption {
   .paws.white:before, .paws.white:after, .paws.white > span {
     color: #fff; }
 
+.heart {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px; }
+  .heart:before, .heart:after {
+    position: absolute;
+    content: "";
+    font-family: 'icomoon';
+    bottom: 0;
+    color: #a2c0be;
+    opacity: .3; }
+  .heart:before {
+    content: "\f004";
+    left: -30px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  .heart:after {
+    content: "\f004";
+    right: -30px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .heart > span {
+    color: #a2c0be;
+    font-size: 2rem; }
+  .heart.white:before, .heart.white:after, .paws.white > span {
+    color: #fff; }
+
+.star {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px; }
+  .star:before, .star:after {
+    position: absolute;
+    content: "";
+    font-family: 'icomoon';
+    bottom: 0;
+    color: #a2c0be;
+    opacity: .3; }
+  .star:before {
+    content: "\f005";
+    left: -30px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  .star:after {
+    content: "\f005";
+    right: -30px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .star > span {
+    color: #a2c0be;
+    font-size: 2rem; }
+  .star.white:before, .star.white:after, .paws.white > span {
+    color: #fff; }
+
 .video-img {
   position: relative;
   display: block; }
