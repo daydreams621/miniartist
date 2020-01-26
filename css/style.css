@@ -1864,7 +1864,7 @@ figure figcaption {
   .heart > span {
     color: #a2c0be;
     font-size: 2rem; }
-  .heart.white:before, .heart.white:after, .paws.white > span {
+  .heart.white:before, .heart.white:after, .heart.white > span {
     color: #fff; }
 
 .star {
@@ -1893,7 +1893,36 @@ figure figcaption {
   .star > span {
     color: #a2c0be;
     font-size: 2rem; }
-  .star.white:before, .star.white:after, .paws.white > span {
+  .star.white:before, .star.white:after, .star.white > span {
+    color: #fff; }
+
+.child {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px; }
+  .child:before, .child:after {
+    position: absolute;
+    content: "";
+    font-family: 'icomoon';
+    bottom: 0;
+    color: #a2c0be;
+    opacity: .3; }
+  .child:before {
+    content: "\f1ae";
+    left: -30px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  .child:after {
+    content: "\f1ae";
+    right: -30px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .child > span {
+    color: #a2c0be;
+    font-size: 2rem; }
+  .child.white:before, .child.white:after, .child.white > span {
     color: #fff; }
 
 .video-img {
